@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Video</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  text-align: mi;
+  background: #adb5bd;
+  color: white;
+}
+
+/* Sticky navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #ced4da;
+  position: relative;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #adb5bd;
+  color: black;
+}
+
+/* Nav bar links */
+.navbar a.active {
+  background-color: #adb5bd;
+  color: white;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+
+figure {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+figcaption {
+  color: Black;
+  font-style: italic;
+  padding: 2px;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+ position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;  padding: 10px;
+  text-align: center;
+  background: #adb5bd;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://image.freepik.com/free-vector/baseball-championship-badge-bats-ball_24877-60018.jpg" alt="BaseballLogo" style="width:10%" >
+</div>
+
+<div class="navbar">
+  <a href="https://mill2284.uwmsois.com/WebDesign2/Review_Assignment.html" class="active">Home</a>
+  <a href="https://mill2284.uwmsois.com/WebDesign2/VideoAssignment/Video_Audio_Assignment.html">Video</a>
+  <a href="#"class="right">Login</a>
+  <a href="#" class="right">Cart</a>
+</div>
+
+
+  
+</div>
+
+<div class="container">
+<figure>
+<h3> Goofy Video </h3>
+<video controls> 
+	<source src="GoofyBaseball.mp4" type="video/mp4">
+	<source src="GoofyBaseball.ogv">
+	<source src="GoofyBaseball.webm">
+Your browser does not support the video tag.
+</video> 
+<br>
+<audio controls>
+	<source src="BaseballSoundEffect.wav" type="audio/wav">
+	<source src="BaseballSoundEffect.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+  <figcaption>Baseball Hit Sound Effect</figcaption>
+<br>
+<br>
+<address>
+<a href="mailto:mill2284@uwm.edu">Regional Headquarters</a>
+</address>
+</figure> 
+
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>

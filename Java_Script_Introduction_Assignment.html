@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScript Introductory</title>
+</head>
+<body>
+<body >
+    <h1>JavaScript Introduction</h1>
+	<p>Open the browser console to check your code</p>
+	<h3>Color Changes</h3>
+	Blue Background: <input type="checkbox" onclick="document.bgColor='blue'"/>
+	Yellow Text: <input type="checkbox" onclick="document.fgColor='yellow'"/>
+	<script>
+	//welcome message-box
+	const logWelcome= 'Welcome to the Page.';
+	console.log(logWelcome);
+	
+	//prompt hello message with name.
+	let enterFirstName = prompt('Please enter your First name.');
+	let enterLastName = prompt('Please enter your Last name.');
+	
+	//display my full name.
+	const enterFullName = enterLastName + ',' + enterFirstName;
+	console.log(enterFullName);
+	
+	//display my age.
+	const enterAge = prompt('Please enter your Age.');
+	console.log(enterAge);
+	
+	//create the student object...
+	var mom = new Object();
+	
+	mom.living = true;
+	mom.age = 46;
+	mom.gender = 'female';
+	
+	console.log('Mom - ' + mom.living, mom.age, mom.gender);
+	</script>
+	
+	
+</body>
+</html>

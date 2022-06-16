@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>Switch Statement Example</title>
+<style>
+#displayIceCream{
+
+}
+</style>
+<body>
+<p>Click the button to display a dialog box which will ask for your preferred Ice Cream Flavor.</p>
+<ol>
+  <li>Vanilla</li>
+  <li>Chocolate</li>
+  <li>Strawberry</li>
+  <li>Coffee</li>
+  <li>Pistachio</li>
+  <li>Neapolitan</li>
+  <li>Lime</li>
+</ol>  
+<button onclick="flavor()">Display Details</button>
+<p id="displayIceCream"></p>
+<script>
+function flavor() {
+	var text;
+	var enterIceCreamFlavor = prompt('Please enter your favorite Ice Cream flavor.');
+
+	switch (enterIceCreamFlavor) {
+	  case "Vanilla":
+		text = "Vanilla? That will be $1.50.";
+		break;
+	  case "Chocolate":
+		text = "Chocolate? That will be $1.60.";
+		break;
+	  case "Strawberry":
+		text = "Strawberry? That will be $1.70.";
+		break;
+	  case "Coffee":
+		text = "Coffee? That will be $1.80.";
+		break;
+	  case "Pistachio":
+		text = "Pistachio? That will be $1.90.";
+		break;
+	  case "Neapolitan":
+		text = "Neapolitan? That will be $2.50.";
+		break;
+	  case  "Lime":
+		text = "Lime? That will be $3.50.";
+	  default:
+		text = "Please select 1 of the choices";
+	}
+	document.getElementById("displayIceCream").innerHTML = text;
+}
+</script>
+</body>
+</html>
